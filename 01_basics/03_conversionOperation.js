@@ -21,8 +21,15 @@ console.log(valueInNumber);*/
 let isLoggedIn = 1
 
 let bolleanIsLoggedIn = Boolean(isLoggedIn)
+console.log(typeof bolleanIsLoggedIn);
 console.log(isLoggedIn);
 
 // 1 => true ; 0 => false
 // "" => false
 // "rajesh" => true
+
+isLoggedIn = 33
+
+let stringIsLoggedIn = String(isLoggedIn)
+console.log(typeof stringIsLoggedIn);
+console.log(isLoggedIn);
